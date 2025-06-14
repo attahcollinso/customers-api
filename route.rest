@@ -1,0 +1,34 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Paul Smith",
+  "username": "paulsmith",
+  "email": "paulsmith@test.com",
+  "password": "password123",    
+  "role": "user"
+}
+
+###
+
+PATCH   http://localhost:3000/users/683d17e21713626e02f66052
+Content-Type: application/json
+
+{
+ "name": "Peter Jones",
+  "username": "peterjones",
+  "email": "peterjones@test.com",
+  "password": "password123",    
+  "role": "user"
+}   
+###
+
+DELETE  http://localhost:3000/users/683d153b4cfa18e886ef698a

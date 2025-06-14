@@ -1,0 +1,28 @@
+{
+  "name": "customers-api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/attahcollinso/customers-api#readme",
+  "bugs": {
+    "url": "https://github.com/attahcollinso/customers-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attahcollinso/customers-api.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.5.0",
+    "nodemon": "^3.1.10"
+  }
+}
